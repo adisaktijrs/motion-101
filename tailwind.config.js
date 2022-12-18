@@ -5,7 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        archivo: "Archivo",
+        latoLight: "LatoLight",
+        latoBold: "LatoBold",
+        latoReg: "LatoReg",
+      },
+    },
   },
   plugins: [],
 };
